@@ -1,1 +1,81 @@
 # Job-Search-Caddie-UI-Public
+
+This is a Job Search App built with Angular. The application communicates with a backend API built with ASP.NET Core to manage job postings.
+
+<img width="1502" alt="Screenshot 2024-06-14 at 6 47 57 PM" src="https://github.com/ShawnPad/job-search-app/assets/59770535/e2ca0a46-4224-4aec-8cf1-98a3bcd10e1e">
+
+
+## Table of Contents
+
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Running the Application](#running-the-application)
+- [Project Structure](#project-structure)
+- [API Integration](#api-integration)
+- [Development](#development)
+- [Building for Production](#building-for-production)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Prerequisites
+
+- [Node.js](https://nodejs.org/) (version 14 or above)
+- [Angular CLI](https://angular.io/cli)
+- [ASP.NET Core API](https://github.com/your-username/job-search-api) running and accessible
+
+## Installation
+
+1. **Clone the repository**:
+
+    ```bash
+    git clone https://github.com/your-username/job-search-app.git
+    cd job-search-app
+    ```
+
+2. **Install dependencies**:
+
+    ```bash
+    npm install
+    ```
+
+## Configuration
+
+1. **API Endpoint**:
+
+    Update the API endpoint in `src/environments/environment.ts` to point to your ASP.NET Core API. Example:
+
+    ```typescript
+    export const environment = {
+      production: false,
+      apiUrl: 'http://localhost:8080/api'
+    };
+    ```
+
+## Running the Application
+
+1. **Start the Angular development server**:
+
+    ```bash
+    ng serve
+    ```
+
+    The application will be available at `http://localhost:4200`.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Project Structure
+
+- `src/app`: Contains the main application code.
+- `src/app/components`: Contains Angular components.
+- `src/app/services`: Contains Angular services for API interaction.
+- `src/environments`: Contains environment configuration files.
+
+## API Integration
+
+The application uses the `JobService` to interact with the ASP.NET Core API. The service is configured to handle CRUD operations for job postings.
+
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.4.
