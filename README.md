@@ -1,6 +1,6 @@
 # Job-Search-Caddie-UI-Public
 
-This is a Job Search App built with Angular. The application communicates with a backend API built with ASP.NET Core to manage job postings.
+Job Search App is a personal job board built with Angular. The application communicates with a backend API built with ASP.NET Core to manage and filter job postings.
 
 ![Screenshot 2024-07-12 at 12 50 20 PM](https://github.com/user-attachments/assets/8d863f69-2f6b-46c2-bff7-8eb6fb36bdc5)
 
