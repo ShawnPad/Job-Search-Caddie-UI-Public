@@ -2,7 +2,7 @@
 
 This is a Job Search App built with Angular. The application communicates with a backend API built with ASP.NET Core to manage job postings.
 
-<img width="1487" alt="Screenshot 2024-06-15 at 5 50 08 PM" src="https://github.com/ShawnPad/Job-Search-Caddie-UI-Public/assets/59770535/c463bf70-4a56-44c2-8f49-26716b195c00">
+![Screenshot 2024-07-12 at 12 50 20 PM](https://github.com/user-attachments/assets/8d863f69-2f6b-46c2-bff7-8eb6fb36bdc5)
 
 
 ## Table of Contents
